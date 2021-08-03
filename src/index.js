@@ -1,3 +1,5 @@
 import './style.css';
+import newForm from './form';
 
-console.log('Webpack work');
+const data = newForm();
+console.log(data);
