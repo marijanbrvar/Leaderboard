@@ -28,8 +28,9 @@ ol[role='list'] {
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
+
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -66,9 +67,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -79,29 +80,28 @@ select {
   }
 }
 
-
 .container {
-    width: 600px;
-    margin: 0 auto;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.list{
-    width: 60%;
+.list {
+  width: 60%;
 }
 
 .list ul li {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid silver;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid silver;
 }
 
 .new {
-    width: 30%;
+  width: 30%;
 }
 
 .new form input {
@@ -109,6 +109,6 @@ select {
 }
 
 .list-title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
