@@ -2,13 +2,11 @@
 
 # Project Leaderboard: setup project
 
-> In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. Here I should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
+> In this activity, I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. Here I should develop a first working version of the app following a wireframe, but without styling - focus on functionality. I will consume the Leaderboard API using JavaScript async and await and add some styling in the following activities.
 
 
 
 ![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -22,18 +20,18 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 `git clone git@github.com:marijanbrvar/Leaderboard.git && cd Leaderboard`
 then run
-`npm install` to update local dependences
-thats all, now you can run `npm start`
+`npm install` to update local dependencies
+, that's all, and now you can run `npm start.`
 
 ### Prerequisites
 Node 14.xx >
 Modern browser like Chrome, Safari ...
 
 ### Usage
-In form on right side enter name and score, Data in list on left side will be populated!
+In the form on the right side, enter your name and score.  The list will be populated automatically in the list on the left side!
 
 ## Authors
 
@@ -57,7 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone who's code was used
 - Inspiration
 - etc
 
