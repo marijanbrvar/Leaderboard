@@ -104,6 +104,10 @@ select {
     width: 30%;
 }
 
+.new form input {
+  margin: 8px 0;
+}
+
 .list-title {
     display: flex;
     justify-content: space-between;

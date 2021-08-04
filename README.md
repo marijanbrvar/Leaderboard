@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Leaderboard: setup project
 
-> One paragraph statement about the project.
+> In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. Here I should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
+
+
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +12,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- Webpack
 
 ## Live Demo
 
@@ -20,10 +21,6 @@ Additional description about the project and its features.
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
