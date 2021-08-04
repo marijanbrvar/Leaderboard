@@ -17,25 +17,23 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://marijanbrvar.github.io/Leaderboard/)
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+`git clone git@github.com:marijanbrvar/Leaderboard.git && cd Leaderboard`
+then run
+`npm install` to update local dependences
+thats all, now you can run `npm start`
 
 ### Prerequisites
-
-### Setup
-
-### Install
+Node 14.xx >
+Modern browser like Chrome, Safari ...
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+In form on right side enter name and score, Data in list on left side will be populated!
 
 ## Authors
 
@@ -51,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/marijanbrvar/Leaderboard/issues).
 
 ## Show your support
 
@@ -65,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/marijanbrvar/Leaderboard/blob/01-basic_layout/LICENSE) licensed.
