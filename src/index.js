@@ -1,13 +1,12 @@
 import './style.css';
 import Data from './data';
+import Store from './store';
 
+const store = new Store();
+
+const loadData = document.querySelector('#loadData');
 const form = document.querySelector('form');
 const list = document.querySelector('#list');
-const scoreList = [];
-
-const commit = (newRecord) => {
-  scoreList.push(newRecord);
-};
 
 const listItem = (name, score) => `
   <li>
@@ -21,15 +20,27 @@ const renderUi = (data) => {
     list.removeChild(list.firstChild);
   }
   data.forEach((item) => {
-    list.innerHTML += listItem(item.name, item.score);
+    list.innerHTML += listItem(item.user, item.score);
   });
 };
 
-form.addEventListener('submit', (e) => {
+const intialLoad = async () => {
+  const res = await store.getData();
+  renderUi(res.result);
+};
+
+intialLoad();
+
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const newRecord = new Data(form.name.value.trim(), form.score.value.trim());
-  commit(newRecord);
-  renderUi(scoreList);
+  await store.commit(newRecord);
+  renderUi(store.scoreList);
   form.reset();
+});
+
+loadData.addEventListener('click', async () => {
+  const res = await store.getData();
+  renderUi(res.result);
 });

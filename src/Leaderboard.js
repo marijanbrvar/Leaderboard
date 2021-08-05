@@ -1,8 +1,17 @@
-class Leaderboard {
+import Api from './api';
+
+export default class LeaderVoard {
   constructor() {
-    this.key = '';
-    this.baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+    this.api = new Api();
+    this.leaderList = [];
+  }
+
+  async get() {
+    return this.leaderList;
+  }
+
+  async refresh() {
+    const refresh = await this.api.getScores();
+    return refresh;
   }
 }
-
-export default Leaderboard;
