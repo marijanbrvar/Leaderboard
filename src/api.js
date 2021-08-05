@@ -1,7 +1,7 @@
 /* eslint-disable class-methods-use-this */
 module.exports = class Api {
   constructor() {
-    this.key = 'qpEC4HmMCQBfzkJQfkDB';
+    this.key = 'kPpLZETmBlLPdW1zpuaz';
     this.baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
     this.url = `${this.baseUrl}${this.key}/scores/`;
     this.header = new Headers({ 'Content-type': 'application/json; charset=UTF-8' });
